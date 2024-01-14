@@ -1,0 +1,114 @@
+:root {
+    --backgroun-color: #1dda1d;
+}
+
+* {
+font-size: border-box;
+margin: 0;
+padding: 0;
+}
+
+html {
+font-size: 62.5%;
+font-family: "DM Sans", sans-serif;
+}
+
+header {
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 20px;
+text-align: center; 
+}
+ 
+.section_Michis {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+background-color:azure;
+height: 100%;
+
+}
+ img {
+width: 20rem;
+height: 16rem;
+} 
+
+article .button_guardar {
+position: relative;
+top: 30px;
+right: 100px;
+width: 10rem;
+height: 5rem;
+background-color: var(--backgroun-color);
+border-radius: 15px;
+box-shadow: 5px 2px 1px 4px  rgb(rgb(27, 104, 187));
+}
+
+.button_recarga {
+display: inline-block;
+margin: 20px;
+width: 80px;
+height: 40px;
+top: 50px;
+}
+
+.button_recarga-on {
+padding: 10px;
+border-radius: 20px;
+box-shadow: 3px 2px 2px 4px rgb( rgb(191, 198, 206));
+background-color: var(--backgroun-color)
+}
+
+.section_h2_form  {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 40px;
+ background-color:azure;
+}
+
+.section_h2_form > h2 {
+display:inline-block;
+position: absolute;
+margin-right: 10px;
+font-size: 20px;
+color: black;
+
+}
+.section_h2_form button {
+font-size: 14px;
+border-radius: 10px;
+font-weight: bold;
+width: 15rem;
+}
+
+.section-favoritos {
+display: flex;
+justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.section-favoritos button {
+  position: relative;
+  top: 30px;
+  right: 100px;
+  width: 10rem;
+  height: 5rem;
+  background-color: var(--backgroun-color);
+  border-radius: 15px;
+  box-shadow: 5px 2px 1px 4px  rgb(rgb(27, 104, 187));
+  }
+
+  .section-favoritos h2 {
+    display:inline-block;
+    position: absolute;
+    height: 10px;
+    bottom: 13rem;
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
+    background-color: #1dda1d;
+  }
